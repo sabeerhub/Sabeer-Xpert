@@ -1,19 +1,21 @@
-import Hero from "@/components/sections/Hero";
-import Storytelling from "@/components/sections/Storytelling";
-import Ecosystem from "@/components/sections/Ecosystem";
-import Products from "@/components/sections/Products";
-import Vision from "@/components/sections/Vision";
-import Footer from "@/components/layout/Footer";
+import Scene1 from "@/components/sections/Scene1";
+import Scene2 from "@/components/sections/Scene2";
+import Scene3 from "@/components/sections/Scene3";
+import Scene4 from "@/components/sections/Scene4";
+import Scene5 from "@/components/sections/Scene5";
+import Scene6 from "@/components/sections/Scene6";
+import Scene7 from "@/components/sections/Scene7";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
-      <Hero />
-      <Storytelling />
-      <Ecosystem />
-      <Products />
-      <Vision />
-      <Footer />
+    <div className="scene-container">
+      <Scene1 />
+      <Scene2 />
+      <Scene3 />
+      <Scene4 />
+      <Scene5 />
+      <Scene6 />
+      <Scene7 />
     </div>
   );
 }

@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/sabeerhub/Sabeer-Xpert#readme",
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/postcss": "^4.3.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
